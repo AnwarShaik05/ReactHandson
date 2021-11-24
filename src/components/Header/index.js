@@ -104,7 +104,16 @@ class Header extends Component {
                 Cart
               </Link>
             </div>
-            <AiFillCloseCircle />
+            <Link
+              onClick={this.onLogOut}
+              style={{
+                color: '#334155',
+                textDecoration: 'none',
+              }}
+              to="/cart"
+            >
+              Logout
+            </Link>
           </div>
         ) : null}
       </div>

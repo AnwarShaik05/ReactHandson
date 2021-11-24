@@ -64,7 +64,18 @@ class LoginRoute extends Component {
     return (
       <div className="loginMain">
         <div className="small">
-          <h1>pass</h1>
+          <img
+            alt="website login"
+            src="https://res.cloudinary.com/dclxp4bb4/image/upload/v1632732192/tastyKitchen/Rectangle_1456_enpzse.png"
+          />
+          <img
+            alt="website login"
+            src="https://res.cloudinary.com/dclxp4bb4/image/upload/v1632732192/tastyKitchen/Rectangle_1456_enpzse.png"
+          />
+          <img
+            alt="website login"
+            src="https://res.cloudinary.com/dclxp4bb4/image/upload/v1632732192/tastyKitchen/Rectangle_1456_enpzse.png"
+          />
         </div>
         <div className="loginCon">
           <div className="formCon">
@@ -74,7 +85,6 @@ class LoginRoute extends Component {
                 src="https://res.cloudinary.com/dclxp4bb4/image/upload/v1632732181/tastyKitchen/Group_7420_vfqhmf.png"
               />
               <h1 className="logoName">Tasty Kitchens</h1>
-              <h1 className="loginName">Login</h1>
             </div>
             <form onSubmit={this.onSubmitForm}>
               <div className="inputCon">
